@@ -1,0 +1,23 @@
+[
+    {
+      "_id": 1,
+      "userid": 123,
+      "title": "a new post",
+      "content": "a new post",
+      "isAdmin": true
+    },
+    {
+      "_id": 2,
+      "userid": 123,
+      "title": "another post",
+      "content": "another post",
+      "isAdmin": false
+    },
+    {
+      "_id": 3,
+      "userid": 123,
+      "title": "test post",
+      "content": "test post",
+      "isAdmin": false
+    }
+  ]

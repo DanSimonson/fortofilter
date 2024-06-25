@@ -102,7 +102,7 @@ export default function App() {
       </div>
       <div className="flex flex-col justify-center items-center pt-8 w-full">
         <Button onClick={getPostWithFind} outline gradientDuoTone="greenToBlue">
-          Filter example
+          Find example
         </Button>
 
         {findpost.length < 1 ? (

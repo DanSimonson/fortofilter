@@ -102,7 +102,7 @@ export default function App() {
       </div>
       <div className="flex flex-col justify-center items-center pt-8 w-full">
         <Button onClick={getPostWithFind} outline gradientDuoTone="greenToBlue">
-          Find example
+          Filter example
         </Button>
 
         {findpost.length < 1 ? (
@@ -119,7 +119,7 @@ export default function App() {
           outline
           gradientDuoTone="greenToBlue"
         >
-          Find example
+          For Of example
         </Button>
 
         {forofpost.length < 1 ? (
@@ -136,7 +136,7 @@ export default function App() {
           outline
           gradientDuoTone="greenToBlue"
         >
-          Find example
+          For In example
         </Button>
 
         {forinpost.length < 1 ? (

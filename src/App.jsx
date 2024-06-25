@@ -53,7 +53,7 @@ export default function App() {
   };
   const getPostWithForIn = async () => {
     for (let PostIndex in Posts) {
-      if (Posts[PostIndex]._id === 1) {
+      if (Posts[PostIndex]._id === 2) {
         setForinpost(Posts[PostIndex]);
         setForofpost([]);
         setForlooppost([]);
@@ -62,7 +62,7 @@ export default function App() {
       }
     }
   };
-
+  console.log("forinpost: ", forinpost);
   return (
     <>
       <div className="flex flex-col justify-center items-center pt-8 w-full">

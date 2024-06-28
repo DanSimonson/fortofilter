@@ -31,9 +31,8 @@ export default function App() {
     setForinpost([]);
   };
   const getPostWithFind = async () => {
-    let foundPostArrayOfObjectsElement = Posts.filter((p) => p._id === 2);
-    let newObj = foundPostArrayOfObjectsElement.shift();
-    setFindpost(newObj);
+    let foundPostArrayOfObjectsElement = Posts.find((p) => p._id === 2);
+    setFindpost(foundPostArrayOfObjectsElement)
     setForlooppost([]);
     setFilterpost([]);
     setForofpost([]);
@@ -62,7 +61,6 @@ export default function App() {
       }
     }
   };
-  console.log("forinpost: ", forinpost);
   return (
     <>
       <div className="flex flex-col justify-center items-center pt-8 w-full">
